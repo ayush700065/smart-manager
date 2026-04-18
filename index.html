@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Notes Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>📝 Smart Notes Manager - Ayush Rai</h1>
+
+  <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+
+  <div class="input-container">
+    <textarea id="noteInput" placeholder="Write your note..."></textarea>
+    <br>
+    <button onclick="addNote()">Add Note</button>
+  </div>
+
+  <input type="text" id="searchInput" placeholder="Search notes..." onkeyup="searchNotes()">
+
+  <div id="notesContainer"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
