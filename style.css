@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f4f4f4;
+  transition: 0.3s;
+}
+
+.dark {
+  background: #1e1e1e;
+  color: white;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.note {
+  background: white;
+  padding: 10px;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.dark .note {
+  background: #333;
+}
